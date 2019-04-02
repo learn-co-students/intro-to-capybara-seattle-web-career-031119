@@ -1,1 +1,21 @@
-<%# Write your code here! %>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome Page</title>
+    </head>
+    <body>
+
+      <br>
+      <%= "Welcome!" %>
+      <br>
+      <br>
+      <form action="/greet" method="POST">
+        <label for="user_name">Name:</label>
+
+        <p><input type="text" name="user_name" id="user_name" /></p>
+
+        <input type="submit" value="Submit"/>
+      </form>
+
+    </body>
+</html>
